@@ -1,0 +1,5 @@
+select host_name from v$instance;
+
+create user oracleuser identified by oracleuser123;
+
+select USERNAME from SYS.ALL_USERS;
