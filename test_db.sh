@@ -5,3 +5,6 @@ whenever sqlerror exit 2;
 create table "test" ("id" integer not null primary key, "name" varchar2(255), "created_at" timestamp with time zone, "updated_at" timestamp with time zone);
 drop table "test";
 SQL
+
+echo "craeting USER"
+sqlplus SYSTEM/biarca123@"104.197.220.94/XE" @'sample.txt'
