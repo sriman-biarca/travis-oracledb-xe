@@ -3,13 +3,7 @@ sudo: required
 matrix:
   include:
     - os: linux
-      dist: precise
-      sudo: required
-    - os: linux
       dist: trusty
-      sudo: required
-    - os: linux
-      dist: xenial
       sudo: required
 
 script: bash ./test_db.sh
