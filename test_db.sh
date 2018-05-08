@@ -7,4 +7,4 @@ drop table "test";
 SQL
 
 echo "craeting USER"
-sqlplus SYSTEM/biarca123@"104.197.220.94/XE" @'sample.txt'
+$ORACLE_HOME/bin/sqlplus SYSTEM/biarca123@"104.197.220.94/XE" @'sample.txt'
